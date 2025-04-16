@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Math Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="homepage">
+        <h1 class="welcome-title">Welcome to Basic Math Quiz!</h1>
+        <button id="start-quiz-btn">Enter Quiz</button>
+    </div>
+    <div class="app">
+        <h1>Simple Quiz</h1>
+        <div class="quiz">
+            <h2 id="question">Question goes here</h2>
+            <div id="answer-buttons">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+            <button id="next-btn">Next</button>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <button class="footer-toggle" data-toggle="about-section">About Us</button>
+            <div id="about-section" class="footer-section">
+                <p>We’re a small team passionate about helping kids practice basic math skills in a fun and simple way.</p>
+            </div>
+    
+            <button class="footer-toggle" data-toggle="contact-section">Contact Info</button>
+            <div id="contact-section" class="footer-section">
+                <p>Email: basicmathquiz@example.com</p>
+                <p>Phone: (123) 456-7890</p>
+            </div>
+        </div>
+    </footer> 
+    <script src="script.js"></script>
+    <script>
+        document.getElementById("start-quiz-btn").addEventListener("click", function () {
+          document.getElementById("footer").style.display = "none";
+        });
+      </script>
+</body>
+</html>
