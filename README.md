@@ -20,16 +20,6 @@ This project is a simple math quiz game built using HTML, CSS, and JavaScript. U
 * A web browser (Google Chrome, Firefox, Edge, etc.)
 
 * A code editor (Visual Studio Code, Sublime Text, Notepad++, etc.)
-
-# Downloading the Project
-
-1.Click on the Code button (if hosted on GitHub or another repository platform).
-
-2.Select Download ZIP.
-
-3.Extract the ZIP file to your preferred location.
-```bash
-git clone (https://github.com/Jyrrel/Simple-Math-Solver.git)
 ```
 ## Running the Project
 
